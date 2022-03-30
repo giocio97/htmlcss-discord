@@ -17,6 +17,7 @@ body{
 /* hedear */
 header{
     background-color: #3161e0;
+    padding-top: 10px;
     height: 100px;
 }
 .container{
@@ -24,11 +25,65 @@ header{
     margin: 0 auto;
 }
 
+header .container{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 30%;
+ 
+}
+
+header nav ul li{
+    display: inline;
+    
+   padding-right: 20px;
+    
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+#logoh{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#acces{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
 /* jumbotron */
 #jumbo .container{
     width: 60%;
     margin: 0 auto;
 }
+
+#jumbo{
+    width: 100%;
+    background-color: red;
+    background-image: url(../img/jumbo.png);
+    z-index: 200;
+}
+
 
 /* sezioni */
 .sezgrey{
