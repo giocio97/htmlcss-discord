@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* hedear */
+header{
+    background-color: #3161e0;
+    height: 100px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* jumbotron */
+#jumbo .container{
+    width: 60%;
+    margin: 0 auto;
+}
