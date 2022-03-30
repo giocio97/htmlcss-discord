@@ -60,7 +60,9 @@ header nav ul li a{
 #acces{
     color: black;
     background-color: white;
-    border-radius: 50%;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
     width: 80px;
     height: 30px;
     padding: 5px;
@@ -73,17 +75,53 @@ header nav ul li a{
 
 /* jumbotron */
 #jumbo .container{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
 #jumbo{
     width: 100%;
-    background-color: red;
+    height: 50vh;
     background-image: url(../img/jumbo.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    
     z-index: 200;
 }
 
+#title{
+    padding: 5px;
+    font-size: 5vh;
+    margin-bottom: 10px;
+}
+
+#subt{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.pulsante{
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    
+    
+
+}
+
+#black{
+    color: white;
+    background-color: black;
+   
+}
+#white{
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+}
 
 /* sezioni */
 .sezgrey{
