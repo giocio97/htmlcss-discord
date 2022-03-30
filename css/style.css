@@ -130,31 +130,45 @@ header nav ul li a{
         height: 300px;
 }
 
-/* main section .container{
-    width: 80%;
-    margin: 0 auto 20;
-} */
+.row{
+        margin-bottom: 20px;
+        margin-top: 20px; 
+}
 
 .clsx{
-    width: 40%;
+    width: 50%;
     float: left;
+    padding-left: 20px;
         /* debug */
-        background-color: yellow ;
+        /* background-color: yellow ;
         height: 100px;
         margin-bottom: 20px;
-        margin-top: 20px;
+        margin-top: 20px; */
 }
 
 .cldx{
-    width: 50%;
+    width: 30%;
     float: left;
-    margin-left: 10% ;
+    margin-left: 20% ;
         /* debug */
-        background-color: rgb(255, 51, 0) ;
+        /* background-color: rgb(255, 51, 0) ;
         height: 100px;
         margin-bottom: 20px;
-        margin-top: 20px;
+        margin-top: 20px; */
 }
+.titlesez{
+    font-size: 4vh;
+    text-decoration: solid;
+    margin-top: 40px;
+
+
+}
+
+.subtitlesez{
+    margin-top: 20px;
+   line-height: 20px;
+}
+
 
     /* footer */
 footer{
