@@ -130,10 +130,7 @@ header nav ul li a{
         /* height: 300px; */
 }
 
-.row{
-       
-        margin-top: 50px; 
-}
+
 
 .clsx{
     width: 50%;
@@ -180,17 +177,22 @@ header nav ul li a{
 #viola{
     background-color: rgb(182, 156, 245);
     color: white;
+   
 }
 
 #stars{
     background-image: url(../img/stars.svg);
-    background-position: contain;
+    background-position: cover;
+    
 }
     /* footer */
 footer{
     background-color: rgb(32, 32, 32);
     color: white;
     /* height: 500px; */
+}
+#sez4{
+    padding-bottom: 50px;
 }
 
 .clsocial{
